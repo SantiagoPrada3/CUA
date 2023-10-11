@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Fondo de la página */
+    background-image: url(IMG/2-_1_.png)
+}
+
+.container {
+    max-width: 400px; /* Ajusta el ancho del formulario según tus necesidades */
+    width: 100%;
+    background: #fff; /* Fondo del formulario */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.Formulario {
+    /* Estilos para tu formulario */
+}
+
+/* Añade estilos adicionales según tus necesidades */
+
+.ul li{
+    display: inline;
+
+}
