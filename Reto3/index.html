@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" async></script>
+    <title>Tienda de Productos Ecologicos</title>
+</head>
+<body>
+    <header>
+        <h1>Tienda de Productos Ecologicos</h1>
+    </header>
+    <section class="contenedor">
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item"> <a href="Crema.html">Crema Solar</a></span>
+                <img src="https://www.demicasaalmundo.com/blog/wp-content/uploads/2016/07/DSC02467.jpg" alt="" class="img-item">
+                <span class="precio-item">$15.00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item"><a href="frutas.html">Frutas</a></span>
+                <img src="https://www.tiendaecologicaenmadrid.com/286-thickbox_default/cesta-fruta-bio-ecologica.jpg" alt="" class="img-item">
+                <span class="precio-item">$25.00</span>
+                <button class="boton-item">Agregar al Carrito</button><br>
+            </div>
+            <div class="item">
+                <span class="titulo-item"><a href="limpieza.html">Limpieza</a></span>
+                <img src="https://images.falabella.com/v3/assets/blt5e6c562c7d14bc51/bltc206186bdf764502/637bbd10fa033a109b5d9321/productos-limpieza-ecologicos_img5.jpg" alt="" class="img-item">
+                <span class="precio-item">$35.00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+        </div>
+
+
+        </div>
+        <!-- Carrito de Compras -->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
+
+            <div class="carrito-items">
+                <!-- 
+                <div class="carrito-item">
+                    <img src="img/boxengasse.png" width="80px" alt="">
+                    <div class="carrito-item-detalles">
+                        <span class="carrito-item-titulo">Box Engasse</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <span class="carrito-item-precio">$15.000,00</span>
+                    </div>
+                    <span class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                    </span>
+                </div>
+                <div class="carrito-item">
+                    <img src="img/skinglam.png" width="80px" alt="">
+                    <div class="carrito-item-detalles">
+                        <span class="carrito-item-titulo">Skin Glam</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="3" class="carrito-item-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <span class="carrito-item-precio">$18.000,00</span>
+                    </div>
+                    <button class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                    </button>
+                </div>
+                -->
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">
+                        $120.000,00
+                    </span>
+                </div>
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+            </div>
+        </div>
+    </section>
+    <br><br><br>
+    <form>
+        <label for="nombreApellido">Nombre y Apellido:</label>
+        <input type="text" id="nombreApellido" name="nombreApellido" required>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="dni">Número de DNI:</label>
+        <input type="text" id="dni" name="dni" required>
+
+        <label for="fechaNacimiento">Fecha de nacimiento:</label>
+        <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+
+        <label for="codigoPostal">Código postal:</label>
+        <input type="text" id="codigoPostal" name="codigoPostal" required>
+
+        <label for="comentario">Comentario (máximo 100 caracteres):</label>
+        <textarea id="comentario" name="comentario" maxlength="100" required></textarea>
+
+        <input type="submit" value="Enviar">
+    </form>
+    <br><br>
+    <footer class="footer">
+        <div class="container1">
+            <div class="row">
+                <div class="footer-col">
+                    <div class="logo-container">
+                        <img src="https://c0.klipartz.com/pngpicture/839/147/gratis-png-vida-sustentable-de-negocios-amigable-con-el-medio-ambiente.png" alt="Logo" width="120px" class="logo">
+                    </div>
+                    <p>¡Cuidamos tu salud!</p><br>
+
+
+                    <h4>Síguenos en:</h4>
+                </div>
+                <div class="footer-col">
+                    <h4>Nuestras redes Sociales</h4>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Encuentranos en:</h4>
+                    <ul>
+                        <li><a href="#">Lima - Perú Cañete <br>
+                        <li><a href="https://www.productosecologicos.pe">www.ecologicospro.ductos.pe</a></li>
+                        <li><a href="#">Email: informes@ecologicos.peru.pe</a></li>
+                        <li><a href="#">Celular: +51 987 654 321 </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+</body>
+</html>
