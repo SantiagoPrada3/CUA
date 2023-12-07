@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para el encabezado */
+.hero {
+    background: url(https://dinahosting.com/blog/cont/uploads/2019/08/programaci%C3%B3n-mitos.jpg);
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.hero-content {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-content h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+
+.hero-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+nav {
+    background-color: #f7f4f4; 
+    padding: 10px 0; 
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu li a {
+    color: #000000; 
+    font-weight: bo;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; 
+    font-weight: bold;
+
+}
+
+.menu li a:hover {
+    background-color: #0011ff; 
+}
+
+/* Estilos de las secciones */
+.section {
+    padding: 50px 20px;
+    font-weight: bold;
+}
+
+.section h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.project {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    margin-bottom: 30px;
+}
+
+.project h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project p {
+    margin-bottom: 15px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.project a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #979595;
+    color: white;
+    padding: 10px 0;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.project a:hover {
+    background-color: #1100ff;
+}
+
+/* Estilos para la sección de habilidades */
+#habilidades {
+    background-color: #f5f5f5;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 0 0 1px rgb(0, 0, 0);
+}
+
+#habilidades h2 {
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #000000;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-name {
+    display: inline-block;
+    width: 100px;
+}
+
+.skill-bar {
+    background-color: #eee;
+    height: 20px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.skill-level {
+    height: 100%;
+    border-radius: 5px;
+}
+
+.html { width: 70%; background-color: #f06529; }
+.css { width: 50%; background-color: #2965f1; }
+.javascript { width: 45%; background-color: #f0db4f; }
+.python { width: 45%; background-color: #306998; }
+
+/* Estilos para la sección de experiencia */
+#experiencia {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 0 0 1px rgb(0, 0, 0);
+}
+
+#experiencia h2 {
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #000000;
+}
+
+.experience {
+    margin-bottom: 30px;
+}
+
+.experience h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.experience p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.experience img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.938);
+}
+
+/* Estilos para la sección de contacto */
+#contacto {
+    background-color: #f5f5f5;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 0 0 1px rgb(0, 0, 0);
+}
+
+#contacto h2 {
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #000000;
+}
+
+#contacto p {
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.contact-links {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.contact-links li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.contact-links li a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+/* CSS para los enlaces específicos de LinkedIn, Instagram y GitHub */
+.contact-links li a.linkedin {
+    color: #0e76a8; 
+}
+
+.contact-links li a.instagram {
+    color: #c13584; 
+}
+
+.contact-links li a.github {
+    color: #333232; 
+}
+
+
+.contact-links li a.instagram:hover {
+    background-color: #c13584;
+    color: #fff;
+}
+
+.contact-links li a.linkedin:hover {
+    background-color: #0e76a8;
+    color: #fff;
+}
+
+.contact-links li a.github:hover {
+    background-color: #333232;
+    color: #fff;
+}
+
+
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #999797;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+
+}
+
+button[type="submit"]:hover {
+    background-color: #0011ff;
+}
+
+
+/* Estilos del footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0011ff;
+    color: white;
+}
